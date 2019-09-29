@@ -1,0 +1,39 @@
+
+body {
+ background-color: red
+
+}
+
+
+main {
+    width: 200px;
+    height: 200px;
+    background: #0c0044;
+    }
+  h1 {
+    font-family: fantasy, cursive, serif;
+    color: olivedrab;
+    border-bottom: 1px dotted darkgreen;
+    }
+  p {
+    font-family: sans-serif;
+    color: orange;
+    }
+
+    /* Tablet */
+    @media only screen and (min-width: 400px) {
+      main {
+        width: 400px;
+        height: 400px;
+        background: #441900;
+        }
+    }  
+
+    /* Desktop */
+    @media only screen and (min-width: 600px) {
+      main {
+        width: 600px;
+        height: 600px;
+        background: #004411;
+        }
+    }    
