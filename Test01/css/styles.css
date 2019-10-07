@@ -34,13 +34,13 @@ body {
     
 }
 
-.menu1 {
+.menu-left-space {
   grid-area: menu1;
   width: auto;
   background-color: transparent
 }
 
-.menu2 {
+.menu-container {
   grid-area: menu2;
   width: auto;
   background-color: rgb(43, 189, 226)

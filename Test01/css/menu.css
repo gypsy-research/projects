@@ -1,0 +1,38 @@
+
+
+.menu div {
+  width: 70px;
+  height: 40px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.menu div:hover{
+  color: white;
+}
+
+#home {
+  background-color: black;
+}
+
+#shop {
+  background-color: rgb(238, 96, 96);
+}
+
+
+#contact {
+  background-color: rgb(50, 90, 62);
+}
+
+
+#about {
+  background-color: rgb(62, 87, 119);
+}
+
+
+#info {
+  background-color: rgb(75, 40, 75);
+}
