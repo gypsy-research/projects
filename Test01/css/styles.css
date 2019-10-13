@@ -32,8 +32,8 @@ body {
   height: 50px;
   display: grid;
   grid-gap: 0px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas:
+  grid-template-columns: 1fr 1fr 1fr;       /* ??? questioning */
+  grid-template-areas:                      /* ??? questioning */
     "menu1  menu2  menu2";
     
 }
