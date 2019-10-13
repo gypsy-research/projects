@@ -1,11 +1,18 @@
 
 
+.menu {
+  height: 40px;
+
+}
+
+
 .menu div {
   width: 70px;
   height: 40px;
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 0px;
   margin-right: 10px;
+  color: black;
   text-align: center;
   padding-top: 10px;
 }
@@ -15,8 +22,19 @@
   background-color: black;
 }
 
+.menu div > a {
+  color: black;
+  text-decoration-line: none;
+}
+
+.menu div > a:hover{
+  color: red;
+
+
+}
+
 #home {
-  background-color: black;
+  background-color: rgb(155, 231, 111);
 }
 
 
@@ -37,4 +55,33 @@
 
 #info {
   background-color: rgb(75, 40, 75);
+}
+
+.menu div ul {
+  display: none;
+  margin-top: 8px;
+  width: 70px;
+  position: absolute;
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+
+
+.menu div:hover ul {
+  display:block;
+}
+
+.menu div ul li a {
+  display: block;
+  color:white;
+  height: 20px;
+  padding-top: 5px;
+  text-decoration-line: none;
+
+}
+
+.menu div ul li a:hover {
+  color: blue;
+  background-color: white;
+  
 }
