@@ -1,20 +1,23 @@
 
 
 .menu {
-  height: 40px;
+  height: 30px;
+
 
 }
 
 
 .menu div {
   width: 70px;
-  height: 40px;
+  height: 25px;
   display: inline-block;
   margin-left: 0px;
   margin-right: 10px;
   color: black;
   text-align: center;
   padding-top: 10px;
+ 
+  
 }
 
 .menu div:hover{
